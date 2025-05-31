@@ -1,0 +1,58 @@
+*{
+    margin: none;
+    padding: none;
+    font-family: "Inspiration", "poppins", serif;
+
+
+}
+.spotify{
+    border: 1px solid transparent;
+    padding:30px 60px;
+    border-radius: 10px;
+    /*background-color: rgb(34, 29, 29);*/
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('pexels-vishnurnair-1105666.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#fff;
+   
+    
+    
+    
+    
+
+}
+.icons{
+    font-size: 50px;
+    color: rgb(20, 228, 20);
+    position: relative;
+    left:125px;
+    top:20px;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    font-family: "poppins", serif;
+    
+}
+.count h2{
+    
+    font-size: large;
+}
+
+
+.count h2,p {
+    display: flex;
+    justify-content: center;
+    
+}
